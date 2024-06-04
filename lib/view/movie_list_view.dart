@@ -16,9 +16,9 @@ class MovieListView extends StatefulWidget {
 class _MovieListViewState extends State<MovieListView> {
   final TextEditingController _controller = TextEditingController();
 
-  //创建Widget组件时的第1个方法, 执行一些初始化操作, 对应安卓的onCreate方法/ios的viewDidLoad方法
+  //状态初始化, 创建Widget组件时的第1个方法, 执行一些初始化操作, 对应安卓的onCreate方法/ios的viewDidLoad方法
   @override
-  void initState() { //状态初始化
+  void initState() {
     super.initState();
     //一进到页面就取数据
     //Provider.of<MovieListViewModel>(context, listen: false).getMovies("batman");

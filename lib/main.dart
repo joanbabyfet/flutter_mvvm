@@ -19,10 +19,6 @@ class MyApp extends StatelessWidget {
         supportedLocales: AppLocalizations.supportedLocales,
         title: "Movies",
         debugShowCheckedModeBanner: false, //去除调试时右上角Debug标签
-        // home: ChangeNotifierProvider( //监听模式对象的变化, 当数据改变它会重建Consumer, 更新UI
-        //   create: (context) => MovieListViewModel(), //所要共享的对象数据
-        //   child: MovieListView(), //视频列表页
-        // )
     );
   }
 }

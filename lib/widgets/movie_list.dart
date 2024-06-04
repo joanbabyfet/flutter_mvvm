@@ -10,10 +10,10 @@ class MovieList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: this.movies.length, //总条数
+      itemCount: movies.length, //总条数
       itemBuilder: (context, index) {
 
-        final movie = this.movies[index];
+        final movie = movies[index];
 
         return ListTile(
           contentPadding: EdgeInsets.all(10),

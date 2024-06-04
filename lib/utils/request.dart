@@ -55,7 +55,7 @@ class Request {
   /// get 请求
   Future<dynamic> get(
       String path, {
-        Map<String, dynamic>? param, //请求传参
+        Map<String, dynamic>? params, //请求传参
         Map<String, dynamic>? headers, //请求头参数
       }) async {
 
@@ -69,7 +69,7 @@ class Request {
 
     Response response = await dio.get(
       path,
-      queryParameters: param,
+      queryParameters: params,
       options: Options(
         headers: headers,
       ),
