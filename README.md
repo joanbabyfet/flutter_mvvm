@@ -8,7 +8,7 @@ flutter run
 ```
 
 ## Requires
-dart 3.4.0
+dart 3.4.0  
 flutter 3.22.0
 
 ## Maintainers
